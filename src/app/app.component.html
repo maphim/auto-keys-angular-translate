@@ -1,0 +1,13 @@
+<div [formGroup]="frm">
+  <textarea
+    class="template_area"
+    placeholder="Please insert template in here"
+    formControlName="template"
+    (change)="readTemplate()"
+  ></textarea>
+  <textarea
+    class="form-control"
+    formControlName="key"
+    placeholder="Generation key in here"
+  ></textarea>
+</div>
